@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{!-- include template head --}}
+{{> head}}
+
+<body>
+    {{!-- include template navbar --}}
+    {{> navbar}}
+
+    <div class="container-fluid">
+        <div class="row" id="seccionAbout">
+            <div class="col-10 offset-1">
+                <div class="row" id="AboutPhoto">
+                    <div class="col-6">
+                        <img src="/img/profile_banner.png" alt="">
+                    </div>
+
+                    <div class="col-6">
+                        <h1>About me</h1>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorum autem id quasi
+                            harum corrupti, odio fugiat doloremque corporis nisi amet saepe exercitationem voluptate
+                            quidem quod, ad nemo assumenda cumque?</p>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-light" id="HiremeBtn">Hire Me</button>
+                        <button type="button" class="btn btn-light" id="DownloadBtn">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="seccionEx">
+            <div class="col-10 offset-1">
+                <div class="row">
+                    <button type="button" class="btn btn-light" id="BtnEx">Experience</button>
+                    <button type="button" class="btn btn-light" id="BtnEx">Education</button>
+                    <button type="button" class="btn btn-light" id="BtnEx">Skills</button>
+                    <button type="button" class="btn btn-light" id="BtnEx">Languages</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6" id="frase">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">
+                    <h1 class="display-3">Be excellent to each other!</p>
+                        <footer class="blockquote-footer"> Wild Stallians. <cite title="Source Title"></cite></footer>
+                </blockquote>
+                <p class="blockquote-footer"></p>
+            </div>
+
+            <div class="col-6">
+                <img class="img-fluid" src="/img/1.png" width="100%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-10 offset-1">
+                <div class="row">
+                    <h1>Services</h1>
+                    <p>Web Developer</p>
+                    <p>Customer Support Ninja</p>
+                    <p>Document management</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    {{!-- include template footer --}}
+    {{> footer}}
+
+</body>
+
+</html>
