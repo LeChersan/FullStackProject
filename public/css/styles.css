@@ -52,6 +52,7 @@ footer{
 #seccionAbout{
     background-color: #9587cb;
     color: #fff;
+    margin-top: -5px;
 }
 #AboutPhoto{
     padding-top: 100px;
@@ -69,9 +70,9 @@ footer{
 }
 
 #seccionEx{
-    height: 300px; 
     background-image: url("../img/pc1.png");
     background-size: cover;
+    padding-top: 200px;
 }
 
 #BtnEx{
@@ -80,8 +81,92 @@ footer{
     padding-right: 50px;
     padding-left: 50px;
     margin: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: #9587cb;
 }
+
+#BtnEx:hover {
+    background-color:#9587cb
+  }
+  
+  #exCard{
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+
+
 
 #frase{
     background-color: #9587cb;
+    color: #fff;
+    padding-top: 110px;
+
 }
+
+#fraseImg{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#services{
+    background-image: url(../img/2.png);
+    background-size: cover;
+    color: #9587cb;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#servicesCards{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cardsServices{
+    border-width:0.5px;
+    border-style:solid;
+    border-color: #9587cb;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.contentCardService{
+    padding: 25px;
+}
+
+.servicesImg{
+    height: 30px;
+    margin-top: -130px;
+    background-color: rgb(43, 37, 46);
+}
+
+
+#seccionContact{
+    background-image: url(../img/1.png);
+    background-size: cover;
+}
+
+.inputs-form{
+    background-color: rgba(255, 255, 255, .8);
+    
+}
+
+#home{
+    background-image:url(/img/banner_header.png);
+    background-size:cover;
+    height: 950px;
+    margin-top: -90px;
+    margin-bottom: 0px;
+    padding-bottom: -5px;
+}
+
+.aboutMe{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+
